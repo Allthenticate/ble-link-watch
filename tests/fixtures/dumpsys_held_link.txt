@@ -1,0 +1,100 @@
+  Bonded devices: 14
+    XX:XX:XX:XX:92:96(Public) => XX:XX:XX:XX:92:96(Public) [ DUAL ] [0x240404] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Headphones A
+        [BR/EDR UUIDs]: 00000000-deca-fade-deca-deafdecacaff 00001108-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 00001124-0000-1000-8000-00805f9b34fb 45c93e07-d90d-4b93-a9db-91e5dd734e35 764cbf0d-bbcb-438f-a8bb-6b92759d6053 81c2e72a-0591-443e-a1ff-05f988593351 8901dfa8-5c7e-4d8f-9f0c-c2b70683f5f0 931c7e8a-540f-4686-b798-e8df0a2ad9f7 956c7b26-d49a-4ba8-b03f-b17d393cb6e2 9b26d8c0-a8ed-440b-95b0-c4714a518bcc df21fe2c-2515-4fdb-8886-f12c4d67927c f76acb00-7cab-495f-bb1a-e664598fd77f f7a96061-a1b3-40de-aff0-e78ec45a151e f8d1fbe4-7966-4334-8024-ff96c9330e15
+    XX:XX:XX:XX:1B:95(Public) => XX:XX:XX:XX:1B:95(Public) [BR/EDR] [0x342408] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Car stereo
+        [BR/EDR UUIDs]: 00001101-0000-1000-8000-00805f9b34fb 00001105-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:B5:CE(Public) => XX:XX:XX:XX:B5:CE(Public) [  LE  ] [0x000704] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:Y] [ Encryption status(BR/EDR):N/A LE:EncryptionStatus{keySize=16, algorithm=2]] Watch
+        [Packages    ]: [com.garmin.android.apps.connectmobile]
+    XX:XX:XX:XX:C0:89(Public) => XX:XX:XX:XX:C0:89(Public) [BR/EDR] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Car
+        [BR/EDR UUIDs]: 4de17a00-52cb-11e6-bdf4-0800200c9a66 b7b2ee43-c32a-41a6-9ee4-336c1365a1c4
+    XX:XX:XX:XX:25:52(Public) => XX:XX:XX:XX:25:52(Public) [BR/EDR] [0x340408] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Car 2
+        [BR/EDR UUIDs]: 00001101-0000-1000-8000-00805f9b34fb 00001105-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 00001133-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:F3:9E(Public) => XX:XX:XX:XX:F3:9E(Public) [BR/EDR] [0x240418] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Speaker
+        [BR/EDR UUIDs]: 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:84:8B(Public) => XX:XX:XX:XX:84:8B(Public) [ DUAL ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Headphones B
+        [BR/EDR UUIDs]: 00000000-deca-fade-deca-deafdecacaff 00001108-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 81c2e72a-0591-443e-a1ff-05f988593351 8901dfa8-5c7e-4d8f-9f0c-c2b70683f5f0 931c7e8a-540f-4686-b798-e8df0a2ad9f7 96cc203e-5068-46ad-b32d-e316f5e069ba b9b213ce-eeab-49e4-8fd9-aa478ed1b26b f8d1fbe4-7966-4334-8024-ff96c9330e15
+    XX:XX:XX:XX:21:6A(Public) => XX:XX:XX:XX:21:6A(Public) [  LE  ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Tag
+        [LE UUIDs    ]: 0000180f-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:F3:25(Public) => XX:XX:XX:XX:F3:25(Public) [ DUAL ] [0x240404] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Headphones C
+        [BR/EDR UUIDs]: 00000000-deca-fade-deca-deafdecacaff 00001108-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 00001124-0000-1000-8000-00805f9b34fb 2573f2dd-a2f8-486c-8476-a63734909acb 443cce33-e85d-4b85-8d53-6e319ede53ae 45c93e07-d90d-4b93-a9db-91e5dd734e35 81c2e72a-0591-443e-a1ff-05f988593351 8901dfa8-5c7e-4d8f-9f0c-c2b70683f5f0 956c7b26-d49a-4ba8-b03f-b17d393cb6e2 9b26d8c0-a8ed-440b-95b0-c4714a518bcc df21fe2c-2515-4fdb-8886-f12c4d67927c f76acb00-7cab-495f-bb1a-e664598fd77f f7a96061-a1b3-40de-aff0-e78ec45a151e f8d1fbe4-7966-4334-8024-ff96c9330e15
+    XX:XX:XX:XX:05:2F(Public) => XX:XX:XX:XX:05:2F(Public) [ DUAL ] [0x240418] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Speaker 2
+        [BR/EDR UUIDs]: 0000110a-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:9B:C0(Public) => XX:XX:XX:XX:9B:C0(Public) [BR/EDR] [0x240404] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Speaker 3
+        [BR/EDR UUIDs]: 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:7B:DA(Public) => XX:XX:XX:XX:7B:DA(Public) [  LE  ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Sensor
+    XX:XX:XX:XX:36:9B(Public) => XX:XX:XX:XX:36:9B(Public) [BR/EDR] [0x260404] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Earbuds
+        [BR/EDR UUIDs]: 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb
+    XX:XX:XX:XX:D4:75(Public) => XX:XX:XX:XX:D4:75(Public) [BR/EDR] [0x340408] [Pairing Algorithm BR/EDR:BREDR_SSP LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] Car 3
+        [BR/EDR UUIDs]: 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 00001133-0000-1000-8000-00805f9b34fb
+
+  Other devices: 7
+    XX:XX:XX:XX:A2:FC(Public) => XX:XX:XX:XX:XX:XX(Unknown) [ DUAL ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] LAPTOP-WIN
+        [Packages    ]: [net.allthenticate.sda]
+    XX:XX:XX:XX:79:60(Public) => XX:XX:XX:XX:XX:XX(Unknown) [  LE  ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:Y] [ Encryption status(BR/EDR):N/A LE:null] SDA
+        [Packages    ]: [net.allthenticate.sda]
+    XX:XX:XX:XX:93:E2(Public) => XX:XX:XX:XX:XX:XX(Unknown) [ ???? ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:Y] [ Encryption status(BR/EDR):N/A LE:null] LAPTOP-WIN
+        [Packages    ]: [com.life360.android.safetymapd]
+    XX:XX:XX:XX:93:DC(Public) => XX:XX:XX:XX:XX:XX(Unknown) [ ???? ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:Y] [ Encryption status(BR/EDR):N/A LE:null] Laptop-Mac
+    XX:XX:XX:XX:F1:44(Public) => XX:XX:XX:XX:XX:XX(Unknown) [ DUAL ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] LAPTOP-WIN
+        [Packages    ]: [net.allthenticate.sda]
+    XX:XX:XX:XX:A0:DE(Public) => XX:XX:XX:XX:XX:XX(Unknown) [ DUAL ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] LAPTOP-WIN
+    XX:XX:XX:XX:56:6B(Public) => XX:XX:XX:XX:XX:XX(Unknown) [ DUAL ] [0x001F00] [Pairing Algorithm BR/EDR:N/A LE:N/A] [ACL BR/EDR:N LE:N] [ Encryption status(BR/EDR):N/A LE:N/A] LAPTOP-WIN
+
+
+Profile: GattService
+  Registered App:
+    Client:
+      app_if: 58, appName: net.allthenticate.sda, transport: LE
+        Connection(connId=58, XX:XX:XX:XX:93:E2, LE, appId=58)
+      app_if: 59, appName: net.allthenticate.sda, transport: LE
+        Connection(connId=827, XX:XX:XX:XX:79:60, LE, appId=59)
+      app_if: 61, appName: net.allthenticate.sda, transport: LE
+        Connection(connId=317, XX:XX:XX:XX:93:DC, LE, appId=61)
+      app_if: 64, appName: com.garmin.android.apps.connectmobile, transport: LE
+        Connection(connId=576, XX:XX:XX:XX:B5:CE, LE, appId=64)
+      app_if: 65, appName: com.life360.android.safetymapd, transport: LE
+        Connection(connId=65, XX:XX:XX:XX:93:E2, LE, appId=65)
+      app_if: 66, appName: com.life360.android.safetymapd, transport: LE
+        Connection(connId=66, XX:XX:XX:XX:93:E2, LE, appId=66)
+      app_if: 68, appName: net.allthenticate.sda, transport: LE
+      app_if: 69, appName: net.allthenticate.sda, transport: LE
+    Server:
+      app_if: 51, appName: android.uid.bluetooth:1002, transport: AUTO
+        Connection(connId=51, XX:XX:XX:XX:93:E2, LE, appId=51)
+        Connection(connId=307, XX:XX:XX:XX:93:DC, LE, appId=51)
+        Connection(connId=563, XX:XX:XX:XX:B5:CE, LE, appId=51)
+        Connection(connId=819, XX:XX:XX:XX:79:60, LE, appId=51)
+      app_if: 52, appName: android.uid.bluetooth:1002, transport: AUTO
+        Connection(connId=52, XX:XX:XX:XX:93:E2, LE, appId=52)
+        Connection(connId=308, XX:XX:XX:XX:93:DC, LE, appId=52)
+        Connection(connId=564, XX:XX:XX:XX:B5:CE, LE, appId=52)
+        Connection(connId=820, XX:XX:XX:XX:79:60, LE, appId=52)
+      app_if: 54, appName: android.uid.bluetooth:1002, transport: AUTO
+        Connection(connId=54, XX:XX:XX:XX:93:E2, LE, appId=54)
+        Connection(connId=310, XX:XX:XX:XX:93:DC, LE, appId=54)
+        Connection(connId=566, XX:XX:XX:XX:B5:CE, LE, appId=54)
+        Connection(connId=822, XX:XX:XX:XX:79:60, LE, appId=54)
+      app_if: 60, appName: com.google.android.gms, transport: AUTO, tag: nearby_connections
+        Connection(connId=60, XX:XX:XX:XX:93:E2, LE, appId=60)
+        Connection(connId=316, XX:XX:XX:XX:93:DC, LE, appId=60)
+        Connection(connId=572, XX:XX:XX:XX:B5:CE, LE, appId=60)
+        Connection(connId=828, XX:XX:XX:XX:79:60, LE, appId=60)
+
+
+stack::gatt    last 10 tcb state transitions:
+stack::gatt    2026-09-26 22:13:37.400 xx:xx:xx:xx:93:e2, BT_TRANSPORT_LE, state: GATT_CH_OPEN, No ACL holders
+stack::gatt    2026-09-26 22:13:37.400 xx:xx:xx:xx:93:e2, BT_TRANSPORT_LE, state: GATT_CH_OPEN, ACL holders app_id: net.allthenticate.sda (58), 
+stack::gatt    2026-09-26 22:13:37.973 xx:xx:xx:xx:93:dc, BT_TRANSPORT_LE, state: GATT_CH_OPEN, No ACL holders
+stack::gatt    2026-09-26 22:13:37.973 xx:xx:xx:xx:93:dc, BT_TRANSPORT_LE, state: GATT_CH_OPEN, ACL holders app_id: net.allthenticate.sda (61), 
+stack::gatt    2026-09-26 22:13:38.324 xx:xx:xx:xx:b5:ce, BT_TRANSPORT_LE, state: GATT_CH_OPEN, No ACL holders
+stack::gatt    2026-09-26 22:13:38.324 xx:xx:xx:xx:b5:ce, BT_TRANSPORT_LE, state: GATT_CH_OPEN, ACL holders app_id: com.garmin.android.apps.connectmobile (64), 
+stack::gatt    2026-09-26 22:13:39.193 xx:xx:xx:xx:79:60, BT_TRANSPORT_LE, state: GATT_CH_OPEN, No ACL holders
+stack::gatt    2026-09-26 22:13:39.193 xx:xx:xx:xx:79:60, BT_TRANSPORT_LE, state: GATT_CH_OPEN, ACL holders app_id: net.allthenticate.sda (59), 
+stack::gatt    2026-09-26 22:13:39.987 xx:xx:xx:xx:93:e2, BT_TRANSPORT_LE, state: GATT_CH_OPEN, ACL holders app_id: com.life360.android.safetymapd (65), net.allthenticate.sda (58), 
+stack::gatt    2026-09-26 22:13:39.997 xx:xx:xx:xx:93:e2, BT_TRANSPORT_LE, state: GATT_CH_OPEN, ACL holders app_id: com.life360.android.safetymapd (66), com.life360.android.safetymapd (65), net.allthenticate.sda (58), 
+TCB (GATT_MAX_PHY_CHANNEL: 8) in_use: 4
+  id: 0  address: xx:xx:xx:xx:93:e2  transport: BT_TRANSPORT_LE  ch_state: GATT_CH_OPEN, ACL holders app_id: com.life360.android.safetymapd (66), com.life360.android.safetymapd (65), net.allthenticate.sda (58), 
+  id: 1  address: xx:xx:xx:xx:93:dc  transport: BT_TRANSPORT_LE  ch_state: GATT_CH_OPEN, ACL holders app_id: net.allthenticate.sda (61), 
+  id: 2  address: xx:xx:xx:xx:b5:ce  transport: BT_TRANSPORT_LE  ch_state: GATT_CH_OPEN, ACL holders app_id: com.garmin.android.apps.connectmobile (64), 
+  id: 3  address: xx:xx:xx:xx:79:60  transport: BT_TRANSPORT_LE  ch_state: GATT_CH_OPEN, ACL holders app_id: net.allthenticate.sda (59), 
+

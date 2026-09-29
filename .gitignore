@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.jsonl
+captures/
+*.log
+*.zip
+uv.lock
