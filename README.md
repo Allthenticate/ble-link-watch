@@ -19,6 +19,7 @@ This tool puts the two halves together:
 | `linkwatch snapshot` | same | the same, once, as JSON |
 | `linkwatch peripheral` | Linux with BlueZ 5.50+ | a bait device that logs every read, write and subscription |
 | `linkwatch report` | anywhere | both logs merged, each access attributed to the apps holding the link |
+| `linkwatch snoop` | anywhere | every LE connection in a phone's HCI snoop log, with the ATT requests the phone sent while each set of apps held it |
 | `python windows_bait.py` | Windows 10/11 with Python 3.12 | the same bait on Windows's own GATT server; logs reads, writes and subscriptions with the central's address |
 
 ## Setup
@@ -115,10 +116,38 @@ For radio-level detail, including discovery:
   not the separate "socket" option), then turn Bluetooth off and on. After the experiment, `adb bugreport
   run/bugreport.zip`; the log is `FS/data/misc/bluetooth/logs/btsnoop_hci.log` inside it.
 
-Decode either with `btmon -r <file> -T`. In btmon's output, lines starting `<` are packets the capturing device
-sent and `>` are packets it received. ATT requests appear as `ATT: Read Request`, `ATT: Write Request`,
-`ATT: Read By Type Request` and so on, under `LE-ACL: Handle <n>`. The handle maps to a peer in the
-`LE Enhanced Connection Complete` event that opened it.
+`linkwatch snoop run/bugreport.zip` reads the phone's capture straight from the bugreport. The same zip holds
+`dumpsys bluetooth_manager`, whose history of who held each link is on the phone's clock, so no separate
+phone log is needed:
+
+```
+2026-09-28 17:01:28.993  4B:D3:13:5E:0E:4F (random)  handle 65  still open at the end of the capture
+    17:01:29.100     2.8 s  net.allthenticate.sda
+        phone sent: Read By Type Request x16, Find Information Request x4, Read By Group Type Request x3, ...
+    17:01:31.892     46 ms  com.life360.android.safetymapd, net.allthenticate.sda
+        phone sent: nothing
+    17:01:32.019  16.1 min  com.life360.android.safetymapd, net.allthenticate.sda
+        phone sent: Write Request 0x0021 x193, Write Request 0x001e x1
+        received:   Write Response x194, Handle Value Indication 0x0021 x193, Handle Value Indication 0x001e x1
+    17:17:39.862     6.9 s  net.allthenticate.sda
+        phone sent: Write Request 0x0021 x2
+```
+
+Each connection is split wherever the set of apps holding it changed. Reads and writes carry the attribute
+handle they target. When several apps hold a link, nothing in the capture says which one sent a request; the
+handles are the evidence. Above, every write during the shared 16 minutes went to the two attributes
+`net.allthenticate.sda` writes when it holds the link alone.
+
+- `--peer 0E:4F` limits the report to one device. Match the address the phone used for it: a device on a
+  random address shows up under that address, in the capture and in dumpsys.
+- `--phone-log run/phone.jsonl` adds holder changes from `linkwatch phone`. dumpsys keeps only the last 100,
+  across all devices, and windows before the first one known are marked `holders unknown`.
+- A connection opened before the capture began has no Connection Complete event, so its peer is
+  `??:??:??:??:??:??` and its holders are unknown.
+- A bare `btsnoop_hci.log` works too; pass `--tz` if the phone's timezone differs from this machine's.
+
+For packet-level detail, decode either capture with `btmon -r <file> -T`. In btmon's output, lines starting
+`<` are packets the capturing device sent and `>` are packets it received.
 
 ## Caveats for your own runs
 

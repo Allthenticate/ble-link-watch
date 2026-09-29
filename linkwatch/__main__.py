@@ -1,4 +1,4 @@
-"""Command line: `linkwatch peripheral|phone|snapshot|report`."""
+"""Command line: `linkwatch peripheral|phone|snapshot|report|snoop`."""
 
 from __future__ import annotations
 
@@ -31,6 +31,12 @@ def main() -> None:
     p.add_argument("peripheral_log", type=Path)
     p.add_argument("phone_log", type=Path)
 
+    p = sub.add_parser("snoop", help="ATT traffic per connection from a phone's HCI snoop log, by app")
+    p.add_argument("capture", type=Path, help="an `adb bugreport` zip or a bare btsnoop_hci.log")
+    p.add_argument("--phone-log", type=Path, help="a `linkwatch phone` log, for holders a bugreport lacks")
+    p.add_argument("--peer", help="only this device, by address or its last two bytes")
+    p.add_argument("--tz", help="phone timezone, e.g. America/Chicago; read from a bugreport by default")
+
     args = parser.parse_args()
     if args.command == "peripheral":
         from linkwatch.peripheral import run
@@ -49,6 +55,10 @@ def main() -> None:
         from linkwatch.report import main as report_main
 
         report_main(args.peripheral_log, args.phone_log)
+    elif args.command == "snoop":
+        from linkwatch.snoop import main as snoop_main
+
+        snoop_main(args.capture, args.phone_log, args.peer, args.tz)
 
 
 if __name__ == "__main__":
